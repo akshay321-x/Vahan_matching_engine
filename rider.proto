@@ -1,0 +1,24 @@
+syntax = "proto3";
+package vahan_mesh;
+
+message RideRequest{
+    string rider_id=1;
+    double pickup_lat=2;
+    double pickup_long=3;
+    double dest_lat=4;
+    double dest_long=5;
+     int32 rider_rating=6;
+enum ServiceType{
+    ECONOMY=0;
+    PREMIUM=1;
+    EV=2;
+}
+
+ServiceType requested_type=7;
+}
+message Cab{
+    string cab_id=1;
+    double lat=2;
+    double lon=3;
+    bool is_available=4;
+}
