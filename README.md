@@ -1,4 +1,4 @@
-<img width="1919" height="919" alt="image" src="https://github.com/user-attachments/assets/14bb3805-a503-4cdd-9b75-b8ab73886332" /># Vahan_matching_engine
+Vahan_matching_engine
 This project is step by step implementation of a ride matching engine inspired by system like a Uber.
 
 Current Progress 
